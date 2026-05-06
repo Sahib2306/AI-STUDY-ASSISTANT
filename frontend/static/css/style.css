@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    min-height:100vh;
+    color:white;
+}
+
+.container{
+    padding-top:50px;
+    max-width:1000px;
+}
+
+.hero-section{
+    margin-bottom:40px;
+}
+
+.main-title{
+    font-size:3.5rem;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#cbd5e1;
+    font-size:1.1rem;
+}
+
+.main-card{
+    background:rgba(255,255,255,0.05);
+    border-radius:25px;
+    padding:30px;
+    backdrop-filter:blur(10px);
+    box-shadow:0 0 30px rgba(0,0,0,0.3);
+}
+
+.upload-section{
+    margin-bottom:25px;
+}
+
+.upload-label{
+    margin-bottom:10px;
+    display:block;
+    font-weight:500;
+}
+
+.chat-box{
+    height:450px;
+    overflow-y:auto;
+    background:rgba(255,255,255,0.03);
+    border-radius:18px;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.bot-message,
+.user-message{
+    padding:14px 18px;
+    border-radius:15px;
+    margin-bottom:15px;
+    max-width:80%;
+    width:fit-content;
+}
+
+.bot-message{
+    background:#334155;
+}
+
+.user-message{
+    background:#2563eb;
+    margin-left:auto;
+}
+
+.input-section{
+    display:flex;
+    gap:15px;
+}
+
+.ask-btn{
+    background:#3b82f6;
+    color:white;
+    border:none;
+    padding:12px 28px;
+    border-radius:12px;
+    transition:0.3s;
+    font-weight:500;
+}
+
+.ask-btn:hover{
+    background:#2563eb;
+    transform:scale(1.03);
+}
+
+.form-control{
+    background:rgba(255,255,255,0.08);
+    border:none;
+    color:white;
+    border-radius:12px;
+    padding:14px;
+}
+
+.form-control:focus{
+    background:rgba(255,255,255,0.12);
+    color:white;
+    box-shadow:none;
+}
+
+.form-control::placeholder{
+    color:#cbd5e1;
+}
