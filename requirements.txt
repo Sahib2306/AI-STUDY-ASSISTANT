@@ -8,3 +8,5 @@ pypdf
 streamlit
 huggingface-hub
 langchain-google-genai
+flask
+flask-cors
